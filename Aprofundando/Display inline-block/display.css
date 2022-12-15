@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.example{
+    color: white;
+    text-align-last: justify;
+}
+
+
+
+.example-text{
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+}
+
+.example-text_primeiro{
+    background-color: teal;
+}
+
+.example-text_segundo{
+    background-color: orange;
+}
+
+.example-text_terceiro{
+    background-color: purple;
+}
