@@ -22,6 +22,18 @@
                     <option value="MA">Maranhão</option>
                     <option value="PE">Pernambuco</option>
                     <option value="RN">Rio Grande do Norte</option>
+                    <option value="BA">Bahia</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="icid">Cidade</label>
+            <select name="cid" id="icid">
+                <option value="">---Escolha---</option>
+                <optgroup label="Cidades da Bahia">
+                    <option value="SSA">Salvador</option>
+                    <option value="CAM">Camaçari</option>
+                    <option value="DIA">Dias d'Ávila</option>
                 </optgroup>
             </select>
         </p>
@@ -34,6 +46,11 @@
                 <option value="DEV">Desenvolvedor</option>
                 <option value="PROF">Professor</option>
             </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label><br>  
+            <textarea name="msg" id="imsg" cols="30" rows="10" 
+             placeholder="Máximo 250." minlength="10" maxlength="250"></textarea>
         </p>
         <p>
             <input type="submit" value="Enviar">
