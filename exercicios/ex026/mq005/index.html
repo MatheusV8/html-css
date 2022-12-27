@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Site de Notícia</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Negócios</a></li>
+                <li><a href="#">Culinário</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati eius excepturi qui, dolores temporibus accusantium repudiandae quas modi. Nobis, magnam quidem. Consectetur vero totam placeat corrupti, fuga nihil eum cum magnam quidem blanditiis ratione iusto quaerat architecto, earum veritatis tempore? Eos, quia nesciunt adipisci sint velit ex impedit voluptatum odio numquam magni quas id iste mollitia sed, ipsam repellendus temporibus doloremque reprehenderit. Vel vitae consequatur rem cupiditate eum sapiente porro veritatis voluptates maiores, enim molestias?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et fugit modi voluptas vitae culpa quibusdam commodi labore laboriosam aperiam non explicabo obcaecati optio libero doloremque illo, harum dolorem. Ex sint iusto commodi nostrum ut laboriosam, quae porro ab quod ad? Autem, laborum molestias natus nisi modi corporis, numquam nihil eveniet repellat vero, architecto commodi delectus dolorum id rem velit quam iusto libero inventore. Dolore, libero facere excepturi non obcaecati illo debitis. Hic vitae maiores corporis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius tenetur vel reprehenderit ex delectus harum quisquam at dolor qui aperiam ut laborum debitis fugiat amet vero sint sit, odit quam suscipit, illum modi officiis alias? Maxime aut exercitationem recusandae vel necessitatibus suscipit quod quisquam nesciunt itaque? Velit earum praesentium ab atque nisi voluptatum laborum placeat maiores repellendus illum, incidunt adipisci recusandae fuga molestiae consequatur? Neque quos ut facilis, veritatis suscipit delectus sunt sed sequi?</p>
+        </article>
+    </main>
+    <script>
+            function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
